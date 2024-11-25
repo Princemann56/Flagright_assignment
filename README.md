@@ -14,6 +14,7 @@ A web application designed as part of the Flagright assignment, showcasing a rob
     - [Running with Docker](#running-with-docker)
 5. [Testing](#testing)
 6. [Screenshot](#Screenshot)
+7. [Deployment Link](#deployment-Link)
 ---
 
 ## Project Overview
@@ -121,3 +122,25 @@ Run unit or integration tests for the React frontend:
 # Screenshot
 
 ![image](https://github.com/user-attachments/assets/253be349-88ac-411b-9e5a-7c76bfcec5ac)
+
+## Deployment Link
+
+The service is deployed on Render and is accessible at:
+- **URL**: [https://your-backend-service.onrender.com](https://flagright-assignment-diic.onrender.com/)
+
+---
+
+## Credentials
+
+Use the following credentials to access the service:
+
+### Admin Login
+- **Username**: `user1234`
+- **Password**: `user1234`
+
+### Setting up .env
+```
+MONGO_URI=mongodb://localhost:27017/mydatabase
+PORT=5000
+JWT_SECRET=
+```
