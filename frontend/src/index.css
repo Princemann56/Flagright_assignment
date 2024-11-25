@@ -1,0 +1,16 @@
+.d-flex {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.gap-3 {
+  gap: 1rem; 
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.flex-grow-1 {
+  flex-grow: 1; 
+}

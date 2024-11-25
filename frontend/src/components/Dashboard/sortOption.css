@@ -1,0 +1,93 @@
+
+.sort-options-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+.sort-options-card h4 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+
+.form-select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.sort-buttons {
+    margin-top: 20px;
+}
+
+.btn-sort {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+
+.btn-sort:hover {
+    transform: scale(1.05); 
+}
+
+
+.btn-primary {
+    background-color: #212f3c; 
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #273c49; 
+}
+
+
+.btn-secondary {
+    background-color: #1a242f; 
+    color: white;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #34495e; 
+}
+
+
+@media (max-width: 768px) {
+    .sort-options-card {
+        padding: 15px;
+    }
+
+    .sort-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-sort {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
