@@ -13,8 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 // Auth Routes
-app.use("/api/auth", authRoutes);
-app.use("/api/transactions", transactionRoutes);
+app.use("/auth", authRoutes);
+app.use("/transactions", transactionRoutes);
 
 // Database Connection
 connectDB();
