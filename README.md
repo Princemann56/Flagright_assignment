@@ -126,7 +126,7 @@ Run unit or integration tests for the React frontend:
 ## Deployment Link
 
 The service is deployed on Render and is accessible at:
-- **URL**: [https://your-backend-service.onrender.com](https://flagright-assignment-diic.onrender.com/)
+- **URL**: [https://flagright-assignment-diic.onrender.com/](https://flagright-assignment-diic.onrender.com/)
 
 ---
 
