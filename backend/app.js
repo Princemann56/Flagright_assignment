@@ -1,9 +1,9 @@
+require("dotenv").config(); // Load environment variables
 const express = require("express");
 const transactionRoutes = require("./routes/transactionRoutes");
 const authRoutes = require("./routes/authRoutes");
 const connectDB = require("./config/db");
 const { startCron } = require("./utils/cronJob");
-require("dotenv").config(); // Load environment variables
 
 const app = express();
 const cors = require("cors");
